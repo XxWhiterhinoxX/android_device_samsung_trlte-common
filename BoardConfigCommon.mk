@@ -72,6 +72,9 @@ TARGET_KERNEL_CONFIG := apq8084_sec_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/trlte
 
+# Custom Toolchain Flags
+TARGET_GCC_VERSION_ARM := 4.8-sm
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
